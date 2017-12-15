@@ -1,0 +1,11 @@
+- var n = 0;
+doctype
+html
+	head
+		script(src="js/index.bundle.js" async)
+	body
+		ul
+			while n < 10
+				- n++
+				li
+					img(src=`https://dummyimage.com/2000x1000/ccc/000?text=${n}`)
